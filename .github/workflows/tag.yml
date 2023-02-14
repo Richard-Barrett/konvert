@@ -14,3 +14,4 @@ jobs:
         uses: anothrNick/github-tag-action@1.54.0
         env:
           GITHUB_TOKEN: ${{ secrets.AUTOMATION_PAT }}
+          WITH_V: true
